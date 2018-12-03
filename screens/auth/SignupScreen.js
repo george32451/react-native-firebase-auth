@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, View, Text, TextInput, Button, Alert} from 'react-native';
+import { View, Text, TextInput, Button, Alert} from 'react-native';
 import * as firebase from 'firebase'
 export default class SignupScreen extends React.Component {
     constructor(props){
@@ -91,7 +91,3 @@ export default class SignupScreen extends React.Component {
         )
     }
 }
-
-const styles = StyleSheet.create({
-
-})

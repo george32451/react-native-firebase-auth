@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, View, TextInput, Text, Button, Alert } from 'react-native';
+import { View, TextInput, Text, Button, Alert } from 'react-native';
 import * as firebase from 'firebase';
 
 export default class LoginScreen extends React.Component {
@@ -79,6 +79,3 @@ export default class LoginScreen extends React.Component {
     }
 }
 
-const styles = StyleSheet.create({
-
-})

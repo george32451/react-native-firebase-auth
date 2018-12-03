@@ -10,8 +10,8 @@ async function requestWriteExternalStoragePermission() {
     }
 }
 
-async function saveToGallery(uri) {
-    try {
+async function saveToGallery (uri) {
+    try  {
         const asset = await MediaLibrary.createAssetAsync(uri);
         Alert.alert('Файл сохранен в: ', asset.uri)
     } catch (e) {
@@ -26,9 +26,8 @@ export default class TestComponent extends React.Component {
             'http://techslides.com/demos/sample-videos/small.mp4',
             FileSystem.documentDirectory + 'small.mp4'
         )
-            .then(({ uri }) => {
-                saveToGallery(uri)
-
+            .then( ({ uri }) => {
+                saveToGallery(uri);
             })
             .catch(error => {
                 console.error(error);

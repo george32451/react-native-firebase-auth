@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, View, Text, TextInput, Button, Alert} from 'react-native';
+import { View, Text, TextInput, Button, Alert} from 'react-native';
 import * as firebase from 'firebase';
 
 export default class ForgotPasswordScreen extends React.Component {
@@ -55,7 +55,3 @@ export default class ForgotPasswordScreen extends React.Component {
         )
     }
 }
-
-const styles = StyleSheet.create({
-
-})

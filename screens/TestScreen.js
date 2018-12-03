@@ -1,5 +1,5 @@
 import React from 'react';
-import {  StyleSheet, Text, View, Button, } from 'react-native';
+import { Text, View, Button, } from 'react-native';
 import * as firebase from 'firebase'
 
 import { TestComponent } from '../components/AppComponents'
@@ -26,6 +26,4 @@ export default class TestScreen extends React.Component {
     }
 }
 
-const styles = StyleSheet.create({
 
-});
